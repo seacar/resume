@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import * as THREE from 'three'
 import BIRDS from 'vanta/dist/vanta.birds.min'
 
 
@@ -9,23 +10,15 @@ class Background extends Component {
   }
   componentDidMount() {
     this.vantaEffect = BIRDS({
-      el: this.vantaRef.current
-    })
+        el: this.vantaRef.current,
+        THREE: THREE // use a custom THREE when initializing
+      })
   }
   componentWillUnmount() {
     if (this.vantaEffect) this.vantaEffect.destroy()
   }
   render() {
-    return 
-    <>
-        <Helmet>
-        <script src="three.min.js"></script>
-        <script src="vanta.waves.min.js"></script>
-        </Helmet>
-        <div ref={this.vantaRef}>
-        Foreground content goes here
-        </div>
-    </>
+    return <div height="100vh" ref={this.vantaRef}></div>
   }
 }
 
