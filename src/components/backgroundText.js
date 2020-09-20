@@ -48,8 +48,9 @@ const BackgroundText = () => (
         <HomeText>Sean Patrick Carroll</HomeText>
         <Typist
             cursor={{show: false}}
+            startDelay={2500}
+            avgTypingDelay={120}
             >
-            <Typist.Delay ms={500} />
             <TypingTextColored>Developer</TypingTextColored>
             <Typist.Backspace count={9} delay={300} />
             <TypingTextColored>Engineer</TypingTextColored>
