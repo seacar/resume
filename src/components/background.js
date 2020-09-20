@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import * as THREE from 'three'
 import WAVES from 'vanta/dist/vanta.waves.min'
+import BackgroundText from "./backgroundText"
 
 import styled from "@emotion/styled"
 
@@ -9,14 +10,6 @@ const Container = styled.div `
   height: 100vh;
   z-index: -100;
   text-align: center;
-`
-
-const HomeText = styled.h1 `
-  z-index: 100;
-  color: #fff;
-  font-size: 3em;
-  font-weight: 800;
-  padding-top: 25%;
 `
 
 
@@ -45,7 +38,7 @@ class Background extends Component {
     return (
         <>
             <Container ref={this.vantaRef}>
-                <HomeText>I'm Sean</HomeText>
+                <BackgroundText />
             </Container>
         </>
     )

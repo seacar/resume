@@ -14,8 +14,12 @@ const HeaderContainer = styled.div `
 `
 
 const SectionInfo = styled.div `
+  width: 100%;
+  margin-bottom: 10%;
+`
+
+const SectionInfoInner = styled.div `
   width: 60%;
-  padding: 0;
   margin-left: 20%;
   text-align: center;
 `
@@ -28,8 +32,10 @@ const IndexPage = () => (
     </HeaderContainer>
     <Section sectionTitle="Education" />
     <SectionInfo>
-            <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2011-2016" />
-            <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" />
+      <SectionInfoInner>
+              <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" />
+              <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" sectionItemHighlight="Certificate - Business Analytics" />
+      </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Experience" />
     <SectionInfo>
