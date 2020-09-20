@@ -12,10 +12,11 @@ const HomeText = styled.h1 `
   color: #fff;
   font-size: 3em;
   font-weight: 800;
-  padding-top: 25%;
+  padding-top: 15%;
 `
 
 const TypingTextColored = styled.span `
+  padding-top: 5%;
   z-index: 100;
   color: #fff;
   font-size: 2em;
