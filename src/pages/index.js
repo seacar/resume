@@ -10,6 +10,7 @@ import styled from "@emotion/styled"
 
 const Container = styled.body `
   margin: 0;
+  width: 100%;
 `
 
 const HeaderContainer = styled.div `
