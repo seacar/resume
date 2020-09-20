@@ -45,6 +45,7 @@ const IndexPage = () => (
         <SectionItem sectionItemTitle="ADK Group" sectionItemYears="September 2019 - August 2020" sectionItemHighlight="Drupal Developer" />
         <SectionItem sectionItemTitle="3BL Media" sectionItemYears="January 2019 - August 2019" sectionItemHighlight="Lead Devops Engineer" />
         <SectionItem sectionItemYears="February 2017 - January 2019" sectionItemHighlight="Web Developer" />
+        <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="August 2012 - August 2016" sectionItemHighlight="IT Student Assistant" />
       </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Skills" />
