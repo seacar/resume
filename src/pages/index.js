@@ -35,13 +35,17 @@ const IndexPage = () => (
     <Section sectionTitle="Education" />
     <SectionInfo>
       <SectionInfoInner>
-              <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" />
-              <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" sectionItemHighlight="Certificate - Business Analytics" />
+        <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" />
+        <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" sectionItemHighlight="Certificate - Business Analytics" />
       </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Experience" />
     <SectionInfo>
-            <SectionItem sectionItemTitle="Georgia Insitute of Technology" />
+      <SectionInfoInner>
+        <SectionItem sectionItemTitle="ADK Group" sectionItemYears="September 2019 - August 2020" sectionItemHighlight="Drupal Developer" />
+        <SectionItem sectionItemTitle="3BL Media" sectionItemYears="January 2019 - August 2019" sectionItemHighlight="Lead Devops Engineer" />
+        <SectionItem sectionItemYears="February 2017 - January 2019" sectionItemHighlight="Web Developer" />
+      </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Skills" />
     <SectionInfo>
