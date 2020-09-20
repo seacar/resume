@@ -1,13 +1,25 @@
 import React from "react"
+import styled from "@emotion/styled"
+
+const FooterContainer = styled.footer `
+  width: 100%;
+  background-color: #663399;
+  color: #fff;
+  padding: 2%;
+  text-align: center;
+`
+
+const FooterLink = styled.a `
+    color: #000;
+    text-decoration: none;
+`
 
 const Footer = () => (
-    <footer style={{
-        marginTop: `2rem`
-      }}>
+    <FooterContainer>
         © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-    </footer>
+        <FooterLink href="https://www.gatsbyjs.com">Gatsby</FooterLink>
+    </FooterContainer>
 )
 
 export default Footer
