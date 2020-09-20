@@ -49,9 +49,25 @@ const IndexPage = () => (
       </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Skills" />
-    <SectionInfo>
-            <SectionItem sectionItemTitle="Georgia Insitute of Technology" />
-    </SectionInfo>
+    <SectionInfoInner>
+      <SectionItem sectionItemTitle="Drupal" />
+      <SectionItem sectionItemTitle="React" />
+      <SectionItem sectionItemTitle="Gatsby" />
+      <SectionItem sectionItemTitle="Node" />
+      <SectionItem sectionItemTitle="Python" />
+      <SectionItem sectionItemTitle="Acquia" />
+      <SectionItem sectionItemTitle="Docker" />
+      <SectionItem sectionItemTitle="Lando" />
+      <SectionItem sectionItemTitle="Jira" />
+      <SectionItem sectionItemTitle="AWS" />
+      <SectionItem sectionItemTitle="MatLAB" />
+    </SectionInfoInner>
+    <Section sectionTitle="Hobbies" />
+    <SectionInfoInner>
+      <SectionItem sectionItemTitle="Scuba Diving" />
+      <SectionItem sectionItemTitle="Cycling" />
+      <SectionItem sectionItemTitle="Cooking" />
+    </SectionInfoInner>
     <Footer />
   </>
 )
