@@ -1,7 +1,10 @@
 import React from "react"
 import styled from "@emotion/styled"
 
-import Typist from 'react-typist';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+
+import Typist from 'react-typist'
 
 
 const HomeText = styled.h1 `
@@ -12,17 +15,32 @@ const HomeText = styled.h1 `
   padding-top: 25%;
 `
 
-const TypingText = styled.span `
+const TypingTextColored = styled.span `
   z-index: 100;
   color: #fff;
   font-size: 2em;
   font-weight: 600;
 `
-const TypingTextColored = styled.span `
-  z-index: 100;
+
+const ArrowContainer = styled.div `
+  padding-top: 15%;
+  font-size: 3em;
   color: #FDDB67;
-  font-size: 2em;
-  font-weight: 600;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
 `
 
 const BackgroundText = () => (
@@ -37,8 +55,8 @@ const BackgroundText = () => (
             <Typist.Backspace count={8} delay={300} />
             <TypingTextColored>Entrepreneur</TypingTextColored>
             <Typist.Backspace count={12} delay={300} />
-            <TypingTextColored>Me</TypingTextColored>
         </Typist>
+        <ArrowContainer><FontAwesomeIcon icon={faArrowDown}/></ArrowContainer>
     </>
 )
 
