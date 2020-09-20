@@ -17,6 +17,7 @@ const SectionLine = styled.hr `
   height: 5px;
   margin-left: 40%;
   margin-bottom: 1%;
+  border: none;
 `
 
 
