@@ -45,10 +45,11 @@ const ArrowContainer = styled.div `
 
 const BackgroundText = () => (
     <>
-        <HomeText>I'm Sean</HomeText>
+        <HomeText>Sean Patrick Carroll</HomeText>
         <Typist
             cursor={{show: false}}
             >
+            <Typist.Delay ms={500} />
             <TypingTextColored>Developer</TypingTextColored>
             <Typist.Backspace count={9} delay={300} />
             <TypingTextColored>Engineer</TypingTextColored>
