@@ -27,9 +27,9 @@ const ArrowContainer = styled.div `
   padding-top: 15%;
   font-size: 3em;
   color: #FDDB67;
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+  -moz-animation: bounce 4s infinite;
+  -webkit-animation: bounce 4s infinite;
+  animation: bounce 4s infinite;
 
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
