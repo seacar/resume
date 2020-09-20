@@ -8,6 +8,10 @@ import SectionItem from "../components/sectionItem"
 
 import styled from "@emotion/styled"
 
+const Container = styled.body `
+  margin: 0;
+`
+
 const HeaderContainer = styled.div `
   width: 100%;
   height: 100vh;
@@ -25,7 +29,7 @@ const SectionInfoInner = styled.div `
 `
 
 const IndexPage = () => (
-  <>
+  <Container>
     <HeaderContainer>
       <Background />
       <SEO title="Home" />
@@ -46,7 +50,7 @@ const IndexPage = () => (
             <SectionItem sectionItemTitle="Georgia Insitute of Technology" />
     </SectionInfo>
     <Footer />
-  </>
+  </Container>
 )
 
 export default IndexPage
