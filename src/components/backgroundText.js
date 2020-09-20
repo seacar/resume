@@ -31,7 +31,7 @@ const BackgroundText = () => (
         <Typist
             cursor={{show: false}}
             >
-            <TypingText>I am a </TypingText>
+            <TypingText>A </TypingText>
             <TypingTextColored>Developer</TypingTextColored>
             <Typist.Backspace count={10} delay={300} />
             <TypingText>n </TypingText>
