@@ -31,14 +31,12 @@ const BackgroundText = () => (
         <Typist
             cursor={{show: false}}
             >
-            <TypingText>A </TypingText>
             <TypingTextColored>Developer</TypingTextColored>
-            <Typist.Backspace count={10} delay={300} />
-            <TypingText>n </TypingText>
+            <Typist.Backspace count={9} delay={300} />
             <TypingTextColored>Engineer</TypingTextColored>
             <Typist.Backspace count={8} delay={300} />
             <TypingTextColored>Entrepreneur</TypingTextColored>
-            <Typist.Backspace count={15} delay={300} />
+            <Typist.Backspace count={12} delay={300} />
             <TypingTextColored>Me</TypingTextColored>
         </Typist>
     </>
