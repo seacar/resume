@@ -48,7 +48,7 @@ const BackgroundText = () => (
         <HomeText>Sean Patrick Carroll</HomeText>
         <Typist
             cursor={{show: false}}
-            startDelay={2500}
+            startDelay={1000}
             avgTypingDelay={120}
             >
             <TypingTextColored>Developer</TypingTextColored>
