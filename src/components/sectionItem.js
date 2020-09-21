@@ -19,12 +19,17 @@ const StyledSectionItemYears = styled.p `
   font-style: italic;
 `
 
-const SectionItem = ({ sectionItemTitle, sectionItemYears, sectionItemHighlight }) => (
+const StyledSectionItemDescription = styled.p `
+  font-style: italic;
+`
+
+const SectionItem = ({ sectionItemTitle, sectionItemYears, sectionItemHighlight, sectionItemDescription }) => (
     <Fade bottom>
         <StyledSectionItemContainer>
             <StyledSectionItemTitle>{sectionItemTitle}</StyledSectionItemTitle>
-            <StyledSectionItemHighlight>{sectionItemHighlight}</StyledSectionItemHighlight>
             <StyledSectionItemYears>{sectionItemYears}</StyledSectionItemYears>
+            <StyledSectionItemHighlight>{sectionItemHighlight}</StyledSectionItemHighlight>
+            <StyledSectionItemDescription>{sectionItemDescription}</StyledSectionItemDescription>
         </StyledSectionItemContainer>
     </Fade>
 )
