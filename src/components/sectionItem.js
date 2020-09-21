@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
+import Fade from 'react-reveal/Fade'
 
 const StyledSectionItemContainer = styled.div `
   margin-bottom: 3%;
@@ -19,12 +20,13 @@ const StyledSectionItemYears = styled.p `
 `
 
 const SectionItem = ({ sectionItemTitle, sectionItemYears, sectionItemHighlight }) => (
-    <StyledSectionItemContainer>
-        <StyledSectionItemTitle>{sectionItemTitle}</StyledSectionItemTitle>
-        <StyledSectionItemHighlight>{sectionItemHighlight}</StyledSectionItemHighlight>
-        <StyledSectionItemYears>{sectionItemYears}</StyledSectionItemYears>
-        
-    </StyledSectionItemContainer>
+    <Fade bottom>
+        <StyledSectionItemContainer>
+            <StyledSectionItemTitle>{sectionItemTitle}</StyledSectionItemTitle>
+            <StyledSectionItemHighlight>{sectionItemHighlight}</StyledSectionItemHighlight>
+            <StyledSectionItemYears>{sectionItemYears}</StyledSectionItemYears>
+        </StyledSectionItemContainer>
+    </Fade>
 )
 
 export default SectionItem
