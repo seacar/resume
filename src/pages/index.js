@@ -32,7 +32,7 @@ const IndexPage = () => (
       <Background />
       <SEO title="Home" />
     </HeaderContainer>
-    <Section sectionTitle="Education" />
+    <Section id="education" sectionTitle="Education" />
     <SectionInfo>
       <SectionInfoInner>
         <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" />
