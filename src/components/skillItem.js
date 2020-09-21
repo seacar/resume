@@ -10,6 +10,10 @@ const StyledSkillItemTitle = styled.h2 `
   color: #663399;
 `
 
+const StyledSkillItemYears = styled.p `
+
+`
+
 const SkillItem = ({ skillItemTitle, skillItemYears }) => (
     <Fade bottom>
         <StyledSkillItemContainer>

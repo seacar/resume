@@ -5,6 +5,7 @@ import Background from "../components/background"
 import Section from "../components/section"
 import Footer from "../components/footer"
 import SectionItem from "../components/sectionItem"
+import SkillItem from "../components/skillItem"
 
 import styled from "@emotion/styled"
 
@@ -50,17 +51,17 @@ const IndexPage = () => (
     </SectionInfo>
     <Section sectionTitle="Skills" />
     <SectionInfoInner>
-      <SectionItem sectionItemTitle="Drupal" />
-      <SectionItem sectionItemTitle="React" />
-      <SectionItem sectionItemTitle="Gatsby" />
-      <SectionItem sectionItemTitle="Node" />
-      <SectionItem sectionItemTitle="Python" />
-      <SectionItem sectionItemTitle="Acquia" />
-      <SectionItem sectionItemTitle="Docker" />
-      <SectionItem sectionItemTitle="Lando" />
-      <SectionItem sectionItemTitle="Jira" />
-      <SectionItem sectionItemTitle="AWS" />
-      <SectionItem sectionItemTitle="MatLAB" />
+      <SkillItem skillItemTitle="Drupal" />
+      <SkillItem skillItemTitle="React" />
+      <SkillItem skillItemTitle="Gatsby" />
+      <SkillItem skillItemTitle="Node" />
+      <SkillItem skillItemTitle="Python" />
+      <SkillItem skillItemTitle="Acquia" />
+      <SkillItem skillItemTitle="Docker" />
+      <SkillItem skillItemTitle="Lando" />
+      <SkillItem skillItemTitle="Jira" />
+      <SkillItem skillItemTitle="AWS" />
+      <SkillItem skillItemTitle="MatLAB" />
     </SectionInfoInner>
     <Section sectionTitle="Hobbies" />
     <SectionInfoInner>
