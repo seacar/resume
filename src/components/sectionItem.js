@@ -11,16 +11,16 @@ const StyledSectionItemTitle = styled.h2 `
 `
 
 const StyledSectionItemHighlight = styled.h4 `
-    margin: 0;
-    padding: 0;
 `
 
 const StyledSectionItemYears = styled.p `
   font-style: italic;
+  padding: 0;
+  margin: 0;
 `
 
 const StyledSectionItemDescription = styled.p `
-  font-style: italic;
+
 `
 
 const SectionItem = ({ sectionItemTitle, sectionItemYears, sectionItemHighlight, sectionItemDescription }) => (
