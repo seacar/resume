@@ -65,9 +65,11 @@ const IndexPage = () => (
     </SectionInfoInner>
     <Section sectionTitle="Hobbies" />
     <SectionInfoInner>
+      <SectionItem sectionItemTitle="Sailing" />
       <SectionItem sectionItemTitle="Scuba Diving" />
       <SectionItem sectionItemTitle="Cycling" />
       <SectionItem sectionItemTitle="Cooking" />
+      <SectionItem sectionItemTitle="Woodworking" />
     </SectionInfoInner>
     <Footer />
   </>
