@@ -4,8 +4,6 @@ import styled from "@emotion/styled"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
-import Typist from 'react-typist'
-
 
 const HomeText = styled.h1 `
   z-index: 100;
@@ -13,14 +11,6 @@ const HomeText = styled.h1 `
   font-size: 3em;
   font-weight: 800;
   padding-top: 15%;
-`
-
-const TypingTextColored = styled.span `
-  padding-top: 5%;
-  z-index: 100;
-  color: #fff;
-  font-size: 2em;
-  font-weight: 600;
 `
 
 const ArrowContainer = styled.div `
@@ -47,18 +37,7 @@ const ArrowContainer = styled.div `
 const BackgroundText = () => (
     <>
         <HomeText>Sean Patrick Carroll</HomeText>
-        <Typist
-            cursor={{show: false}}
-            startDelay={1000}
-            avgTypingDelay={120}
-            >
-            <TypingTextColored>Developer</TypingTextColored>
-            <Typist.Backspace count={9} delay={300} />
-            <TypingTextColored>Engineer</TypingTextColored>
-            <Typist.Backspace count={8} delay={300} />
-            <TypingTextColored>Entrepreneur</TypingTextColored>
-            <Typist.Backspace count={12} delay={300} />
-        </Typist>
+        <h3>Developer | Engineer | Entrepreneur</h3>
         <ArrowContainer><FontAwesomeIcon icon={faArrowDown}/></ArrowContainer>
     </>
 )

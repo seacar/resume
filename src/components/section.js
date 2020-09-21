@@ -1,5 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
+import Slide from 'react-reveal/Slide'
+import Flip from 'react-reveal/Flip'
 
 const SectionContainer = styled.div `
   padding: 2.5%;
@@ -11,11 +13,19 @@ const SectionTitle = styled.h1 `
   margin-bottom: 1%;
 `
 
-const SectionLine = styled.hr `
+const SectionLineRight = styled.hr `
   background-color: #FDDB67;
   width: 60%;
   height: 5px;
   margin-left: 40%;
+  margin-bottom: 1%;
+  border: none;
+`
+const SectionLineLeft = styled.hr `
+  background-color: #FDDB67;
+  width: 60%;
+  height: 5px;
+  margin-right: 40%;
   margin-bottom: 1%;
   border: none;
 `
@@ -25,8 +35,9 @@ const SectionLine = styled.hr `
 
 const Section = ({ sectionTitle }) => (
     <SectionContainer>
-        <SectionTitle>{sectionTitle}</SectionTitle>
-        <SectionLine />
+        <Slide left><SectionLineLeft /></Slide>
+        <Flip top><SectionTitle>{sectionTitle}</SectionTitle></Flip>
+        <Slide right><SectionLineRight /></Slide>
     </SectionContainer>
 )
 
