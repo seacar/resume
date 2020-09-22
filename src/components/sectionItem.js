@@ -8,9 +8,10 @@ const StyledSectionItemContainer = styled.div `
 
 const StyledSectionItemTitle = styled.h2 `
   color: #663399;
+  padding-top: 3%;
 `
 
-const StyledSectionItemHighlight = styled.h4 `
+const StyledSectionItemHighlight = styled.h3 `
 `
 
 const StyledSectionItemYears = styled.p `

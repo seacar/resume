@@ -28,6 +28,28 @@ const SectionInfoInner = styled.div `
   text-align: center;
 `
 
+const List = styled.ul `
+  text-align: left;
+  list-style-type: none;
+`
+
+const gtHighlights = 
+<List>
+  <li><b>Concentration:</b> Structural and Functional Materials (ie Metals, Ceramics, and Alloys)</li>
+  <li><b>Certificates:</b> Business and Entrepreneurship</li>
+  <li><b>Inventure Prize:</b> Semi-finalist 2012, 2014, and 2015</li>
+  <li><b>Business Plan Competition:</b> Winner 2012</li>
+  <li><b>Capstone Conference:</b> Undergraduate Representative at Ohio State University - Columbus, Ohio 2016</li>
+  <li><b>National Science Foundation I-Corps:</b> Invited for Pitch Competition - New Orleans, Lousiana 2016</li>
+</List>
+
+const whartonHighlights = 
+<List>
+  <li><b>Program Overview:</b> 12 week Executive Education Program</li>
+  <li><b>Topics Covered:</b> Descriptive, Predictive, and Prescriptive Analytics</li>
+  <li><b>Application Based Modules:</b> Data Collection, A/B Testing, Forecasting, Visulaization, Optimization Models, And Decision Trees</li>
+</List>
+
 const IndexPage = () => (
   <>
     <HeaderContainer>
@@ -38,8 +60,8 @@ const IndexPage = () => (
     <Section id="education" sectionTitle="Education" />
     <SectionInfo>
       <SectionInfoInner>
-        <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" />
-        <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" sectionItemHighlight="Certificate - Business Analytics" />
+        <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" sectionItemDescription={gtHighlights} />
+        <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" sectionItemHighlight="Certificate - Business Analytics" sectionItemDescription={whartonHighlights} />
       </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Experience" />
