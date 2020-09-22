@@ -10,10 +10,12 @@ const SidebarContactContainer = styled.div `
   top: 0vh;
   left: 0;
   width: 20%;
-  padding: 5%;
+  padding-top: 5%;
+  padding-left: 2%;
   z-index: 150;
   @media (max-width: 768px) {
    width: 100%;
+   padding-left: right%;
  }
 `
 
