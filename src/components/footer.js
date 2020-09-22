@@ -31,7 +31,7 @@ const Footer = (props) => (
             {` `}
             <FooterLink href="https://www.gatsbyjs.com">Gatsby</FooterLink>
             {` | `}
-            Last Updated: { data.currentBuildDate.currentDate }
+            Updated: { data.currentBuildDate.currentDate }
         </FooterContainer>
       )}
     />
