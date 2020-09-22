@@ -26,6 +26,10 @@ const SectionInfoInner = styled.div `
   width: 60%;
   margin-left: 20%;
   text-align: center;
+  @media (max-width: 768px) {
+    width: 80%;
+    margin-left: 10%;
+  }
 `
 
 const List = styled.ul `
