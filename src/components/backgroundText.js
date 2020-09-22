@@ -1,10 +1,10 @@
 import React from "react"
 import styled from "@emotion/styled"
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-
 import Slide from 'react-reveal/Slide'
+
+import Socials from "./socials"
 
 
 const HomeText = styled.h1 `
@@ -42,6 +42,7 @@ const ArrowContainer = styled.div `
 
 const BackgroundText = () => (
     <>
+        <Socials/>
         <HomeText>Sean Patrick Carroll</HomeText>
         <Slide bottom>
             <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
