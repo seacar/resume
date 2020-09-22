@@ -14,7 +14,7 @@ const SidebarContactContainer = styled.div `
   padding: 2%;
   z-index: 150;
   @media (max-width: 768px) {
-   display: none;
+   width: 100%;
  }
 `
 
