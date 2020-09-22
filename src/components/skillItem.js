@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import styled from "@emotion/styled"
 import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide';
 
 function subtract(currentYear, years) {
   return currentYear - years;
@@ -23,8 +24,8 @@ class SkillItem extends Component {
 
     const StyledSkillItemContainer = styled.div `
       margin-bottom: 3%;
-      width: 40%;
-      margin-left: 30%;
+      width: 75%;
+      margin-left: 12.5%;
     `
 
     const StyledSkillItemTitle = styled.h2 `
@@ -50,7 +51,13 @@ class SkillItem extends Component {
       <Fade bottom>
         <StyledSkillItemContainer>
             <StyledSkillItemTitle>{this.props.skillItemTitle}</StyledSkillItemTitle>
-            <SkillLine /><SkillLineContainerWords>{result} years</SkillLineContainerWords>
+            <Slide left>
+              <SkillLine />
+            </Slide>
+            <Slide bottom>
+              <SkillLineContainerWords>{result} years</SkillLineContainerWords>
+            </Slide>
+            
         </StyledSkillItemContainer>
       </Fade>
     )

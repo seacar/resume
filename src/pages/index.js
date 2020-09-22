@@ -52,16 +52,16 @@ const IndexPage = () => (
     <Section sectionTitle="Skills" />
     <SectionInfoInner>
       <SkillItem skillItemTitle="Drupal" skillItemYear="2012" />
-      <SkillItem skillItemTitle="ReactJS" skillItemYear="2017" />
-      <SkillItem skillItemTitle="GatsbyJS" skillItemYear="2018" />
       <SkillItem skillItemTitle="NodeJS" skillItemYear="2012" />
-      <SkillItem skillItemTitle="Python" skillItemYear="2018" />
+      <SkillItem skillItemTitle="Python" skillItemYear="2016" />
+      <SkillItem skillItemTitle="ReactJS" skillItemYear="2017" />
       <SkillItem skillItemTitle="Acquia" skillItemYear="2017" />
-      <SkillItem skillItemTitle="Pantheon" skillItemYear="2018" />
-      <SkillItem skillItemTitle="Docker" skillItemYear="2019" />
-      <SkillItem skillItemTitle="Lando" skillItemYear="2019" />
       <SkillItem skillItemTitle="Atlassian Suite" skillItemYear="2017" />
+      <SkillItem skillItemTitle="GatsbyJS" skillItemYear="2018" />
+      <SkillItem skillItemTitle="Pantheon" skillItemYear="2018" />
       <SkillItem skillItemTitle="AWS" skillItemYear="2018" />
+      <SkillItem skillItemTitle="Docker" skillItemYear="2018" />
+      <SkillItem skillItemTitle="Lando" skillItemYear="2019" />
     </SectionInfoInner>
     <Section sectionTitle="Hobbies" />
     <SectionInfoInner>
