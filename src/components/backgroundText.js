@@ -6,21 +6,26 @@ import Slide from 'react-reveal/Slide'
 
 import Socials from "./socials"
 
+const HomeTextContainer = styled.div `
+  position: absolute;
+  top: 40vh;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+`
 
 const HomeText = styled.h1 `
   z-index: 100;
-  color: #fff;
   font-size: 3em;
   font-weight: 800;
-  padding-top: 15%;
+  padding-bottom: 3%;
 `
 
 const HomeSubText = styled.h3 `
-  color: #fff;
+  padding-bottom: 10%
 `
 
 const ArrowContainer = styled.div `
-  padding-top: 15%;
   font-size: 3em;
   color: #FDDB67;
   -moz-animation: bounce 4s infinite;
@@ -43,11 +48,13 @@ const ArrowContainer = styled.div `
 const BackgroundText = () => (
     <>
         <Socials/>
-        <HomeText>Sean Patrick Carroll</HomeText>
-        <Slide bottom>
-            <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
-        </Slide>
-        <ArrowContainer><FontAwesomeIcon icon={faArrowDown}/></ArrowContainer>
+        <HomeTextContainer>
+          <HomeText>Sean Patrick Carroll</HomeText>
+          <Slide bottom>
+              <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
+          </Slide>
+        <ArrowContainer><FontAwesomeIcon  icon={faArrowDown}/></ArrowContainer>
+        </HomeTextContainer>
     </>
 )
 

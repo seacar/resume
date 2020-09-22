@@ -2,6 +2,7 @@ import React from "react"
 
 import SEO from "../components/seo"
 import Background from "../components/background"
+import BackgroundText from "../components/backgroundText"
 import Section from "../components/section"
 import Footer from "../components/footer"
 import SectionItem from "../components/sectionItem"
@@ -31,6 +32,7 @@ const IndexPage = () => (
   <>
     <HeaderContainer>
       <Background />
+      <BackgroundText />
       <SEO title="Home" />
     </HeaderContainer>
     <Section id="education" sectionTitle="Education" />

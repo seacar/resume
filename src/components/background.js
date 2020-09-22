@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import * as THREE from 'three'
 import WAVES from 'vanta/dist/vanta.waves.min'
-import BackgroundText from "./backgroundText"
+
 
 import styled from "@emotion/styled"
 
@@ -38,7 +38,7 @@ class Background extends Component {
     return (
         <>
             <Container ref={this.vantaRef}>
-                <BackgroundText />
+                
             </Container>
         </>
     )
