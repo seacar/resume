@@ -8,7 +8,7 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 const SidebarContactContainer = styled.div `
   margin-bottom: 3%;
   position: absolute;
-  top: 0vh;
+  bottom: 0vh;
   left: 0;
   width: 20%;
   padding: 2%;
