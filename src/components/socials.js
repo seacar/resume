@@ -6,12 +6,11 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 
 const SidebarContactContainer = styled.div `
-  margin-bottom: 3%;
   position: absolute;
   top: 0vh;
   left: 0;
   width: 20%;
-  padding: 2%;
+  padding: 5%;
   z-index: 150;
   @media (max-width: 768px) {
    width: 100%;
