@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 import Fade from 'react-reveal/Fade'
 
 const StyledSectionItemContainer = styled.div `
-  margin-bottom: 3%;
+  
 `
 
 const StyledSectionItemTitle = styled.h2 `

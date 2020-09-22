@@ -50,27 +50,31 @@ const IndexPage = () => (
       </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Skills" />
-    <SectionInfoInner>
-      <SkillItem skillItemTitle="Drupal" skillItemYear="2012" />
-      <SkillItem skillItemTitle="NodeJS" skillItemYear="2012" />
-      <SkillItem skillItemTitle="Python" skillItemYear="2016" />
-      <SkillItem skillItemTitle="ReactJS" skillItemYear="2017" />
-      <SkillItem skillItemTitle="Acquia" skillItemYear="2017" />
-      <SkillItem skillItemTitle="Atlassian Suite" skillItemYear="2017" />
-      <SkillItem skillItemTitle="GatsbyJS" skillItemYear="2018" />
-      <SkillItem skillItemTitle="Pantheon" skillItemYear="2018" />
-      <SkillItem skillItemTitle="AWS" skillItemYear="2018" />
-      <SkillItem skillItemTitle="Docker" skillItemYear="2018" />
-      <SkillItem skillItemTitle="Lando" skillItemYear="2018" />
-    </SectionInfoInner>
+    <SectionInfo>
+      <SectionInfoInner>
+        <SkillItem skillItemTitle="Drupal" skillItemYear="2012" />
+        <SkillItem skillItemTitle="NodeJS" skillItemYear="2012" />
+        <SkillItem skillItemTitle="Python" skillItemYear="2016" />
+        <SkillItem skillItemTitle="ReactJS" skillItemYear="2017" />
+        <SkillItem skillItemTitle="Acquia" skillItemYear="2017" />
+        <SkillItem skillItemTitle="Atlassian Suite" skillItemYear="2017" />
+        <SkillItem skillItemTitle="GatsbyJS" skillItemYear="2018" />
+        <SkillItem skillItemTitle="Pantheon" skillItemYear="2018" />
+        <SkillItem skillItemTitle="AWS" skillItemYear="2018" />
+        <SkillItem skillItemTitle="Docker" skillItemYear="2018" />
+        <SkillItem skillItemTitle="Lando" skillItemYear="2018" />
+      </SectionInfoInner>
+    </SectionInfo>
     <Section sectionTitle="Hobbies" />
-    <SectionInfoInner>
-      <SectionItem sectionItemTitle="Sailing" />
-      <SectionItem sectionItemTitle="Scuba Diving" />
-      <SectionItem sectionItemTitle="Cycling" />
-      <SectionItem sectionItemTitle="Cooking" />
-      <SectionItem sectionItemTitle="Woodworking" />
-    </SectionInfoInner>
+    <SectionInfo>
+      <SectionInfoInner>
+        <SectionItem sectionItemTitle="Sailing" />
+        <SectionItem sectionItemTitle="Scuba Diving" />
+        <SectionItem sectionItemTitle="Cycling" />
+        <SectionItem sectionItemTitle="Cooking" />
+        <SectionItem sectionItemTitle="Woodworking" />
+      </SectionInfoInner>
+    </SectionInfo>
     <Footer />
   </>
 )
