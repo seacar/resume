@@ -26,7 +26,7 @@ class Background extends Component {
         color: 0x663399,
         shininess: 20.00,
         waveHeight: 25.00,
-        waveSpeed: 1.5,
+        waveSpeed: 1.2,
         zoom: 0.8,
         THREE: THREE // use a custom THREE when initializing
       })
