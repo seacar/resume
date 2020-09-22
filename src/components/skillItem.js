@@ -26,6 +26,9 @@ class SkillItem extends Component {
       margin-bottom: 3%;
       width: 75%;
       margin-left: 12.5%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     `
 
     const StyledSkillItemTitle = styled.h2 `
