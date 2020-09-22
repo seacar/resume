@@ -18,7 +18,7 @@ const HeaderContainer = styled.div `
 
 const SectionInfo = styled.div `
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 `
 
 const SectionInfoInner = styled.div `
