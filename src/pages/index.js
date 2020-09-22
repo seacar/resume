@@ -68,7 +68,7 @@ const IndexPage = () => (
     <SectionInfo>
       <SectionInfoInner>
         <SectionItem sectionItemTitle="ADK Group" sectionItemYears="September 2019 - August 2020" sectionItemHighlight="Drupal Developer" sectionItemDescription="After leaving 3BL Media I began at ADK Group, a world class digital agency, as a Drupal Developer.  In this role I have had the opportunity to work on a number of different websites mostly utilizing Drupal 8." />
-        <SectionItem sectionItemTitle="3BL Media" sectionItemYears="January 2019 - August 2019" sectionItemHighlight="Lead Devops Engineer" />
+        <SectionItem sectionItemTitle="3BL Media" sectionItemYears="January 2019 - August 2019" sectionItemHighlight="Lead Devops Engineer" sectionItemDescription="In addition to developer duties I oversaw the integration of technologies used throughout the company to improve overall workflow and performance.  Technologies included Adobe Sign, Acquia Pipelines, AWS (several products), Jive (VoIP), and Salesforce." />
         <SectionItem sectionItemYears="February 2017 - January 2019" sectionItemHighlight="Web Developer" sectionItemDescription="Upon graduation from Georgia Tech I transistioned to 3BL Media as a full time Full-Stack Web Developer working on a number of different web properties owned by 3BL.  I worked in a number of different tech stacks including Drupal 7, Drupal 8, EmberJS, NodeJS, and ReactJS." />
         <SectionItem sectionItemTitle="Georgia Institute of Technology" sectionItemYears="August 2012 - August 2016" sectionItemHighlight="IT Student Assistant" sectionItemDescription="While enrolled at Georgia Tech I worked part time for the Office of International Education as an IT Student Assistant.  In this role I contributed to the development and maintinence of the department website (Drupals 6 and 7) and provided desktop IT support to the office of 35+ full time employees." />
       </SectionInfoInner>
@@ -78,6 +78,7 @@ const IndexPage = () => (
       <SectionInfoInner>
         <SkillItem skillItemTitle="Drupal" skillItemYear="2012" />
         <SkillItem skillItemTitle="NodeJS" skillItemYear="2012" />
+        <SkillItem skillItemTitle="Git/GitHub/Bitbucket" skillItemYear="2013" />
         <SkillItem skillItemTitle="Python" skillItemYear="2016" />
         <SkillItem skillItemTitle="ReactJS" skillItemYear="2017" />
         <SkillItem skillItemTitle="Acquia" skillItemYear="2017" />
