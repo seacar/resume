@@ -16,13 +16,18 @@ const HomeTextContainer = styled.div `
 
 const HomeText = styled.h1 `
   z-index: 100;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 800;
   padding-bottom: 3%;
+  font-family: lobster;
+  @media (max-width: 768px) {
+    font-size: 2.5em;
+  }
 `
 
 const HomeSubText = styled.h3 `
-  padding-bottom: 10%
+  padding-bottom: 10%;
+  font-family: rubik;
 `
 
 const ArrowContainer = styled.div `
