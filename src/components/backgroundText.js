@@ -45,6 +45,17 @@ const ArrowContainer = styled.div `
   }
 `
 
+const RebeccaPurple = styled.a `
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2%;
+  color: #fff;
+  font-style: italic;
+  font-size: .9em;
+  text-decoration: none;
+`
+
 const BackgroundText = () => (
     <>
         <Socials/>
@@ -55,6 +66,7 @@ const BackgroundText = () => (
           </Slide>
         <ArrowContainer><FontAwesomeIcon  icon={faArrowDown}/></ArrowContainer>
         </HomeTextContainer>
+        <RebeccaPurple href="https://en.wikipedia.org/wiki/Eric_A._Meyer">rebecca purple</RebeccaPurple>
     </>
 )
 
