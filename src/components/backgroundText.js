@@ -8,7 +8,7 @@ import Socials from "./socials"
 
 const HomeTextContainer = styled.div `
   position: absolute;
-  top: 40vh;
+  top: 30vh;
   width: 100%;
   text-align: center;
   color: #fff;
