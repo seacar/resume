@@ -20,8 +20,6 @@ class SkillItem extends Component {
     const result = subtract(currentYear, this.props.skillItemYear)
     const percentage = percent(max, result).toString(10).concat('%')
 
-    console.log(percentage)
-
     const StyledSkillItemContainer = styled.div `
       margin-bottom: 3%;
       width: 75%;

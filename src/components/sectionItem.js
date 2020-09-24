@@ -20,7 +20,7 @@ const StyledSectionItemYears = styled.p `
   margin: 0;
 `
 
-const StyledSectionItemDescription = styled.p `
+const StyledSectionItemDescription = styled.span `
 
 `
 
