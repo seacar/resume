@@ -12,8 +12,12 @@ const FooterContainer = styled.footer `
 `
 
 const FooterLink = styled.a `
-    color: #000;
+    color: #B5D83C;
     text-decoration: none;
+`
+
+const FooterHiglight = styled.span `
+    color: #B5D83C;
 `
 
 const Footer = (props) => (
@@ -31,7 +35,7 @@ const Footer = (props) => (
             {` `}
             <FooterLink href="https://www.gatsbyjs.com">Gatsby</FooterLink>
             {` | `}
-            Updated: { data.currentBuildDate.currentDate }
+            Updated: <FooterHiglight>{ data.currentBuildDate.currentDate }</FooterHiglight>
         </FooterContainer>
       )}
     />
