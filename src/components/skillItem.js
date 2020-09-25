@@ -25,7 +25,8 @@ class SkillItem extends Component {
       width: 75%;
       margin-left: 12.5%;
       @media (max-width: 768px) {
-        width: 75%;
+        width: 90%;
+        margin-left: 5%;
       }
     `
 
