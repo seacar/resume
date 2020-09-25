@@ -66,9 +66,7 @@ const BackgroundText = () => (
         <Socials/>
         <HomeTextContainer>
           <HomeText>Sean Patrick Carroll</HomeText>
-          <Slide bottom>
-              <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
-          </Slide>
+          <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
         <ArrowContainer><FontAwesomeIcon  icon={faArrowDown}/></ArrowContainer>
         </HomeTextContainer>
         <RebeccaPurple href="https://en.wikipedia.org/wiki/Eric_A._Meyer">rebecca purple</RebeccaPurple>
