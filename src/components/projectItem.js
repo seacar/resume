@@ -32,7 +32,7 @@ const StyledLink = styled.a `
 const ProjectItem = ({ projectItemTitle, projectItemTech, projectItemDescription, projectItemLink }) => (
     <Fade bottom>
         <StyledProjectItemContainer>
-            <StyledProjectItemTitle><StyledLink href={projectItemLink}>{projectItemTitle} <FontAwesomeIcon  icon={faExternalLinkAlt}/></StyledLink></StyledProjectItemTitle>
+            <StyledProjectItemTitle><StyledLink href={projectItemLink} target="_blank">{projectItemTitle} <FontAwesomeIcon  icon={faExternalLinkAlt}/></StyledLink></StyledProjectItemTitle>
             <StyledProjectItemTech>{projectItemTech}</StyledProjectItemTech>
             <StyledProjectItemDescription>{projectItemDescription}</StyledProjectItemDescription>
         </StyledProjectItemContainer>
