@@ -7,6 +7,7 @@ import Section from "../components/section"
 import Footer from "../components/footer"
 import SectionItem from "../components/sectionItem"
 import SkillItem from "../components/skillItem"
+import ProjectItem from "../components/projectItem"
 
 import styled from "@emotion/styled"
 
@@ -92,6 +93,16 @@ const IndexPage = () => (
         <SkillItem skillItemTitle="AWS" skillItemYear="2018" />
         <SkillItem skillItemTitle="Docker" skillItemYear="2018" />
         <SkillItem skillItemTitle="Lando" skillItemYear="2018" />
+      </SectionInfoInner>
+    </SectionInfo>
+    <Section sectionTitle="Projects" />
+    <SectionInfo>
+      <SectionInfoInner>
+        <ProjectItem projectItemTitle="3BL Media" projectItemLink="https://3blmedia.com" projectItemTech="Drupal 7" projectItemDescription="" />
+        <ProjectItem projectItemTitle="Triple Pundit" projectItemLink="https://triplepundit.com" projectItemTech="Drupal 8/ReactJS" projectItemDescription="" />
+        <ProjectItem projectItemTitle="Ethical Performance" projectItemLink="https://ethicalperformance.com" projectItemTech="Drupal 8/EmberJS" projectItemDescription="" />
+        <ProjectItem projectItemTitle="Major Decision" projectItemLink="https://majordecision.com" projectItemTech="Drupal 8" projectItemDescription="" />
+        <ProjectItem projectItemTitle="Harvard University Asia Center" projectItemLink="https://asiacenter.harvard.edu/.com" projectItemTech="Drupal 8" projectItemDescription="" />
       </SectionInfoInner>
     </SectionInfo>
     <Section sectionTitle="Hobbies" />
