@@ -122,6 +122,7 @@ const IndexPage = () => (
         <ProjectItem projectItemTitle="Ethical Performance" projectItemLink="https://ethicalperformance.com" projectItemTech="Drupal 8/EmberJS" projectItemImage="/images/ep.png" />
         <ProjectItem projectItemTitle="Major Decision" projectItemLink="https://majordecision.com" projectItemTech="Drupal 8" projectItemImage="/images/md.png" />
         <ProjectItem projectItemTitle="Harvard Asia Center" projectItemLink="https://asiacenter.harvard.edu/.com" projectItemTech="Drupal 8" projectItemImage="/images/huac.png" />
+        <ProjectItem projectItemTitle="Detroit School Guide" projectItemLink="https://www.detroitschoolsguide.com/" projectItemTech="Drupal 8/ReactJS" projectItemImage="/images/dsg.png" />
       </SectionInfoInnerGrid>
     </SectionInfo>
     <Section sectionTitle="Hobbies" />
