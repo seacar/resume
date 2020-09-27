@@ -42,9 +42,9 @@ const gtHighlights =
 <List>
   <li><b>Concentration:</b> Structural and Functional Materials (ie Metals, Ceramics, and Alloys)</li>
   <li><b>Certificates:</b> Business and Entrepreneurship</li>
-  <li><b>Inventure Prize:</b> Semi-finalist 2012, 2014, and 2015</li>
-  <li><b>Business Plan Competition:</b> Winner 2012</li>
-  <li><b>Capstone Conference:</b> Undergraduate Representative at Ohio State University - Columbus, Ohio 2016</li>
+  <li><b>GT Inventure Prize:</b> Semi-finalist 2012, 2014, and 2015</li>
+  <li><b>GT Business Plan Competition:</b> Winner 2012</li>
+  <li><b>National Engineering Capstone Conference:</b> Georgia Tech Undergraduate Representative at Ohio State University - Columbus, Ohio 2016</li>
   <li><b>National Science Foundation I-Corps:</b> Invited for Pitch Competition - New Orleans, Lousiana 2016</li>
 </List>
 
@@ -65,7 +65,7 @@ const IndexPage = () => (
     <Section id="education" sectionTitle="Education" />
     <SectionInfo>
       <SectionInfoInner>
-        <SectionItem sectionItemTitle="Georgia Insitute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" sectionItemDescription={gtHighlights} />
+        <SectionItem sectionItemTitle="Georgia Institute of Technology" sectionItemYears="2016" sectionItemHighlight="BS - Materials Science and Engineering" sectionItemDescription={gtHighlights} />
         <SectionItem sectionItemTitle="University of Pennsylvania - Wharton School of Business" sectionItemYears="2018" sectionItemHighlight="Certificate - Business Analytics" sectionItemDescription={whartonHighlights} />
       </SectionInfoInner>
     </SectionInfo>
@@ -78,7 +78,7 @@ const IndexPage = () => (
         <SectionItem sectionItemTitle="Georgia Institute of Technology" sectionItemYears="August 2012 - August 2016" sectionItemHighlight="IT Student Assistant" sectionItemDescription="While enrolled at Georgia Tech I worked part time for the Office of International Education as an IT Student Assistant.  In this role I contributed to the development and maintinence of the department website (Drupals 6 and 7) and provided desktop IT support to the office of 35+ full time employees." />
       </SectionInfoInner>
     </SectionInfo>
-    <Section sectionTitle="Skills" />
+    <Section sectionTitle="Programming Skills" />
     <SectionInfo>
       <SectionInfoInner>
         <SkillItem skillItemTitle="Drupal" skillItemYear="2012" />
@@ -95,7 +95,7 @@ const IndexPage = () => (
         <SkillItem skillItemTitle="Lando" skillItemYear="2018" />
       </SectionInfoInner>
     </SectionInfo>
-    <Section sectionTitle="Projects" />
+    <Section sectionTitle="Project Examples" />
     <SectionInfo>
       <SectionInfoInner>
         <ProjectItem projectItemTitle="3BL Media" projectItemLink="https://3blmedia.com" projectItemTech="Drupal 7" projectItemDescription="" />
