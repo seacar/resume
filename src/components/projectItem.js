@@ -20,8 +20,8 @@ const StyledProjectItemTech = styled.p `
   margin: 0;
 `
 
-const StyledProjectItemDescription = styled.p `
-
+const StyledProjectItemImage = styled.img `
+  width: 80%;
 `
 
 const StyledLink = styled.a `
@@ -29,12 +29,12 @@ const StyledLink = styled.a `
   text-decoration: none;
 `
 
-const ProjectItem = ({ projectItemTitle, projectItemTech, projectItemDescription, projectItemLink }) => (
+const ProjectItem = ({ projectItemTitle, projectItemTech, projectItemImage, projectItemLink }) => (
     <Fade bottom>
         <StyledProjectItemContainer>
+            <StyledProjectItemImage src={projectItemImage}></StyledProjectItemImage>
             <StyledProjectItemTitle><StyledLink href={projectItemLink} target="_blank">{projectItemTitle} <FontAwesomeIcon  icon={faExternalLinkAlt}/></StyledLink></StyledProjectItemTitle>
             <StyledProjectItemTech>{projectItemTech}</StyledProjectItemTech>
-            <StyledProjectItemDescription>{projectItemDescription}</StyledProjectItemDescription>
         </StyledProjectItemContainer>
     </Fade>
 )
