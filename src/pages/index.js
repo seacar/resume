@@ -20,16 +20,31 @@ const HeaderContainer = styled.div `
 
 const SectionInfo = styled.div `
   width: 100%;
-  margin-bottom: 8%;
 `
 
 const SectionInfoInner = styled.div `
-  width: 60%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 15%;
   text-align: center;
+  display: 
   @media (max-width: 768px) {
     width: 80%;
     margin-left: 10%;
+  }
+`
+
+const SectionInfoInnerGrid = styled.div `
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 15%;
+  @media (max-width: 768px) {
+    width: 80%;
+    margin-left: 10%;
+    grid-template-columns: 1fr;
+    row-gap: 15%;
   }
 `
 
@@ -80,11 +95,11 @@ const IndexPage = () => (
     </SectionInfo>
     <Section sectionTitle="Programming Skills" />
     <SectionInfo>
-      <SectionInfoInner>
+      <SectionInfoInnerGrid>
         <SkillItem skillItemTitle="Drupal" skillItemYear="2012" skillItemSpace="CMS" />
         <SkillItem skillItemTitle="NodeJS" skillItemYear="2012" skillItemSpace="Backend/API" />
         <SkillItem skillItemTitle="MySQL" skillItemYear="2012" skillItemSpace="Database" />
-        <SkillItem skillItemTitle="Git/GitHub/Bitbucket" skillItemYear="2013" skillItemSpace="DevOps" />
+        <SkillItem skillItemTitle="Git/GitHub" skillItemYear="2013" skillItemSpace="DevOps" />
         <SkillItem skillItemTitle="Python" skillItemYear="2016" skillItemSpace="Backend/API" />
         <SkillItem skillItemTitle="ReactJS" skillItemYear="2017" skillItemSpace="Frontend" />
         <SkillItem skillItemTitle="Acquia" skillItemYear="2017" skillItemSpace="Hosting" />
@@ -92,31 +107,31 @@ const IndexPage = () => (
         <SkillItem skillItemTitle="GatsbyJS" skillItemYear="2018" skillItemSpace="Frontend" />
         <SkillItem skillItemTitle="Twig" skillItemYear="2018" skillItemSpace="Frontend" />
         <SkillItem skillItemTitle="Pantheon" skillItemYear="2018" skillItemSpace="Hosting" />
-        <SkillItem skillItemTitle="AWS" skillItemYear="2018" skillItemSpace="Hosting/DevOps" />
+        <SkillItem skillItemTitle="AWS" skillItemYear="2018" skillItemSpace="DevOps" />
         <SkillItem skillItemTitle="Docker" skillItemYear="2018" skillItemSpace="DevOps" />
         <SkillItem skillItemTitle="Lando" skillItemYear="2018" skillItemSpace="DevOps" />
         <SkillItem skillItemTitle="Couchbase" skillItemYear="2019" skillItemSpace="Database" />
-      </SectionInfoInner>
+      </SectionInfoInnerGrid>
     </SectionInfo>
     <Section sectionTitle="Project Examples" />
     <SectionInfo>
-      <SectionInfoInner>
+      <SectionInfoInnerGrid>
         <ProjectItem projectItemTitle="3BL Media" projectItemLink="https://3blmedia.com" projectItemTech="Drupal 7" projectItemDescription="" />
         <ProjectItem projectItemTitle="Triple Pundit" projectItemLink="https://triplepundit.com" projectItemTech="Drupal 8/ReactJS" projectItemDescription="" />
         <ProjectItem projectItemTitle="Ethical Performance" projectItemLink="https://ethicalperformance.com" projectItemTech="Drupal 8/EmberJS" projectItemDescription="" />
         <ProjectItem projectItemTitle="Major Decision" projectItemLink="https://majordecision.com" projectItemTech="Drupal 8" projectItemDescription="" />
         <ProjectItem projectItemTitle="Harvard University Asia Center" projectItemLink="https://asiacenter.harvard.edu/.com" projectItemTech="Drupal 8" projectItemDescription="" />
-      </SectionInfoInner>
+      </SectionInfoInnerGrid>
     </SectionInfo>
     <Section sectionTitle="Hobbies" />
     <SectionInfo>
-      <SectionInfoInner>
+      <SectionInfoInnerGrid>
         <SectionItem sectionItemTitle="Sailing" />
         <SectionItem sectionItemTitle="Scuba Diving" />
         <SectionItem sectionItemTitle="Cycling" />
         <SectionItem sectionItemTitle="Cooking" />
         <SectionItem sectionItemTitle="Woodworking" />
-      </SectionInfoInner>
+      </SectionInfoInnerGrid>
     </SectionInfo>
     <Footer />
   </>
