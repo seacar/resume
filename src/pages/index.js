@@ -20,6 +20,7 @@ const HeaderContainer = styled.div `
 
 const SectionInfo = styled.div `
   width: 100%;
+  margin-bottom: 5%;
 `
 
 const SectionInfoInner = styled.div `
@@ -37,9 +38,9 @@ const SectionInfoInnerGrid = styled.div `
   width: 70%;
   margin-left: 15%;
   text-align: center;
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 15%;
+  row-gap: 2%;
   @media (max-width: 768px) {
     width: 80%;
     margin-left: 10%;
