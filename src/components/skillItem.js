@@ -43,10 +43,19 @@ class SkillItem extends Component {
       padding: 0;
 
     `
-    const SkillLineContainerWords = styled.p `
+    const SkillLineContainerWordsLeft = styled.p `
       margin: 0;
       padding: 0;
       text-align: left;
+      width: 50%;
+      float: left;
+    `
+    const SkillLineContainerWordsRight = styled.p `
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      width: 50%;
+      float: right;
     `
 
     return (
@@ -57,7 +66,8 @@ class SkillItem extends Component {
               <SkillLine />
             </Slide>
             <Slide bottom>
-              <SkillLineContainerWords>{result} years</SkillLineContainerWords>
+              <SkillLineContainerWordsLeft>{result} years</SkillLineContainerWordsLeft>
+              <SkillLineContainerWordsRight>{this.props.skillItemSpace}</SkillLineContainerWordsRight>
             </Slide>
             
         </StyledSkillItemContainer>
