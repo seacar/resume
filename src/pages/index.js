@@ -90,6 +90,7 @@ const IndexPage = () => (
         <SkillItem skillItemTitle="Acquia" skillItemYear="2017" skillItemSpace="Hosting" />
         <SkillItem skillItemTitle="Atlassian Suite" skillItemYear="2017" skillItemSpace="DevOps" />
         <SkillItem skillItemTitle="GatsbyJS" skillItemYear="2018" skillItemSpace="Frontend" />
+        <SkillItem skillItemTitle="Twig" skillItemYear="2018" skillItemSpace="Frontend" />
         <SkillItem skillItemTitle="Pantheon" skillItemYear="2018" skillItemSpace="Hosting" />
         <SkillItem skillItemTitle="AWS" skillItemYear="2018" skillItemSpace="Hosting/DevOps" />
         <SkillItem skillItemTitle="Docker" skillItemYear="2018" skillItemSpace="DevOps" />
