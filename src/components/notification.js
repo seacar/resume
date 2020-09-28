@@ -2,7 +2,7 @@ import React from "react"
 
 import styled from "@emotion/styled"
 
-const SocialContainer = styled.div `
+const NotificationContainer = styled.div `
    position: absolute;
    top: 0vh;
    right: 0;
@@ -12,14 +12,14 @@ const SocialContainer = styled.div `
    z-index: 150;
    text-align: center;
    background-color: #B5D83C;
-   color: #fff;
+   color: #000;
    border-radius: 20px;
    @media (max-width: 768px) {
       display: none;
    }
 `
 
-const SocialText = styled.p `
+const NotificationText = styled.p `
    padding: 0;
    margin: 0;
    font-size: 1em;
@@ -27,9 +27,9 @@ const SocialText = styled.p `
 `
 
 const Notification = ()=> (
-   <SocialContainer>
-      <SocialText>Currently looking for 2-3 month contract opportunities in front, back, or full stack development utilizing Drupal or React</SocialText>
-   </SocialContainer>
+   <NotificationContainer>
+      <NotificationText>Currently looking for 2-3 month contract opportunities in front, back, or full stack development utilizing Drupal or React</NotificationText>
+   </NotificationContainer>
   
 )
 
