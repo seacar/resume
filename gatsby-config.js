@@ -47,6 +47,7 @@ module.exports = {
     },
     `gatsby-plugin-build-date`,
     `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
