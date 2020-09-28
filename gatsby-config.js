@@ -55,6 +55,7 @@ module.exports = {
         trackingId: "UA-179054172-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
+        defer: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
