@@ -54,11 +54,6 @@ module.exports = {
         trackingId: "UA-179054172-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "seanpatrickcarroll.com",
-        anonymize: true,
-        respectDNT: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
