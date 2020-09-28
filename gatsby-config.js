@@ -53,7 +53,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "UA-179054172-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: true,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: "seanpatrickcarroll.com",
