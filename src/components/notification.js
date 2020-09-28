@@ -11,11 +11,9 @@ const NotificationContainer = styled.div `
    width: 25%;
    padding: 1%;
    margin: 1%;
-   background-color: #B5D83C;
    z-index: 150;
    text-align: center;
-   color: #000;
-   border-radius: 20px;
+   color: #fff;
    @media (max-width: 768px) {
       display: none;
    }
