@@ -47,7 +47,8 @@ const SectionInfoInnerGrid = styled.div `
     width: 80%;
     margin-left: 10%;
     grid-template-columns: 1fr;
-    row-gap: 15%;
+    row-gap: 10%;
+    padding-bottom: 5%;
   }
 `
 
