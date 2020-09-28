@@ -10,8 +10,8 @@ const SocialContainer = styled.div `
    top: 0vh;
    left: 0;
    width: 20%;
-   padding-top: 5%;
-   padding-left: 2%;
+   padding: 1%;
+   margin: 1%;
    z-index: 150;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;

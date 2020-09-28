@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 import Socials from "./socials"
+import Notification from "./notification"
 
 const HomeTextContainer = styled.div `
   position: absolute;
@@ -63,6 +64,7 @@ const RebeccaPurple = styled.a `
 const BackgroundText = () => (
     <>
         <Socials/>
+        <Notification/>
         <HomeTextContainer>
           <HomeText>Sean Patrick Carroll</HomeText>
           <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
