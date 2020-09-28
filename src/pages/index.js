@@ -20,13 +20,13 @@ const HeaderContainer = styled.div `
 
 const SectionInfo = styled.div `
   width: 100%;
-  margin-bottom: 5%;
 `
 
 const SectionInfoInner = styled.div `
   width: 70%;
   margin-left: 15%;
   text-align: center;
+  padding-bottom: 5%;
   display: 
   @media (max-width: 768px) {
     width: 80%;
@@ -38,9 +38,11 @@ const SectionInfoInnerGrid = styled.div `
   width: 70%;
   margin-left: 15%;
   text-align: center;
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 2%;
+  grid-auto-rows: auto;
+  row-gap: 10%;
+  padding-bottom: 15%;
   @media (max-width: 768px) {
     width: 80%;
     margin-left: 10%;
@@ -121,7 +123,7 @@ const IndexPage = () => (
         <ProjectItem projectItemTitle="Triple Pundit" projectItemLink="https://triplepundit.com" projectItemTech="Drupal 8/ReactJS" projectItemImage="/images/3p.png" />
         <ProjectItem projectItemTitle="Ethical Performance" projectItemLink="https://ethicalperformance.com" projectItemTech="Drupal 8/EmberJS" projectItemImage="/images/ep.png" />
         <ProjectItem projectItemTitle="Major Decision" projectItemLink="https://majordecision.com" projectItemTech="Drupal 8" projectItemImage="/images/md.png" />
-        <ProjectItem projectItemTitle="Harvard Asia Center" projectItemLink="https://asiacenter.harvard.edu/.com" projectItemTech="Drupal 8" projectItemImage="/images/huac.png" />
+        <ProjectItem projectItemTitle="Harvard Asia Center" projectItemLink="https://asiacenter.harvard.edu/" projectItemTech="Drupal 8" projectItemImage="/images/huac.png" />
         <ProjectItem projectItemTitle="Detroit School Guide" projectItemLink="https://www.detroitschoolsguide.com/" projectItemTech="Drupal 8/ReactJS" projectItemImage="/images/dsg.png" />
       </SectionInfoInnerGrid>
     </SectionInfo>
