@@ -28,7 +28,7 @@ const NotificationText = styled.p `
 
 const Notification = ()=> (
    <NotificationContainer>
-      <NotificationText>Currently looking for 2-3 month contract opportunities in front, back, or full stack development utilizing Drupal or React</NotificationText>
+      <NotificationText>Currently looking for 2-3 month contract opportunities in front, back, or full stack-development utilizing Drupal or React.</NotificationText>
    </NotificationContainer>
   
 )
