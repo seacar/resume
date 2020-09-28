@@ -130,6 +130,7 @@ const IndexPage = () => (
       <SectionInfoInnerGrid>
         <SectionItem sectionItemTitle="Sailing" />
         <SectionItem sectionItemTitle="Scuba Diving" />
+        <SectionItem sectionItemTitle="Snowboarding" />
         <SectionItem sectionItemTitle="Cycling" />
         <SectionItem sectionItemTitle="Cooking" />
         <SectionItem sectionItemTitle="Woodworking" />
