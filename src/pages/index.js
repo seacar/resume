@@ -46,7 +46,7 @@ const SectionInfoInnerGrid = styled.div `
   @media (max-width: 768px) {
     width: 80%;
     margin-left: 10%;
-    grid-template-columns: 1fr;
+    display: block;
     row-gap: 10%;
     padding-bottom: 5%;
   }
