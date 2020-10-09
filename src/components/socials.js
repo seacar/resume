@@ -38,7 +38,7 @@ const Socials = ()=> (
       <SocialIconLink href="https://github.com/seacar"><FontAwesomeIcon icon={faGithub} /></SocialIconLink>
       </SocialIcon>
       <SocialIcon>
-      <SocialIconLink href="https://www.linkedin.com/in/seanpcarroll1/"><FontAwesomeIcon icon={faLinkedin} /></SocialIconLink>
+      <SocialIconLink href="https://www.linkedin.com/in/seacar/"><FontAwesomeIcon icon={faLinkedin} /></SocialIconLink>
       </SocialIcon>
       <SocialIcon>
       <SocialIconLink href="/files/resume.pdf"><FontAwesomeIcon icon={faFilePdf} /></SocialIconLink>
