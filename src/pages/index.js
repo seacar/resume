@@ -8,6 +8,7 @@ import Footer from "../components/footer"
 import SectionItem from "../components/sectionItem"
 import SkillItem from "../components/skillItem"
 import ProjectItem from "../components/projectItem"
+import HobbyItem from "../components/hobbyItem"
 
 import styled from "@emotion/styled"
 
@@ -131,12 +132,12 @@ const IndexPage = () => (
     <Section sectionTitle="Hobbies" />
     <SectionInfo>
       <SectionInfoInnerGrid>
-        <SectionItem sectionItemTitle="Sailing" />
-        <SectionItem sectionItemTitle="Scuba Diving" />
-        <SectionItem sectionItemTitle="Snowboarding" />
-        <SectionItem sectionItemTitle="Cycling" />
-        <SectionItem sectionItemTitle="Cooking" />
-        <SectionItem sectionItemTitle="Woodworking" />
+        <HobbyItem hobbyItemTitle="Sailing" hobbyItemImage="/images/sailing.png" />
+        <HobbyItem hobbyItemTitle="Scuba Diving" hobbyItemImage="/images/scuba.png" />
+        <HobbyItem hobbyItemTitle="Snowboarding" hobbyItemImage="/images/snowboarding.png" />
+        <HobbyItem hobbyItemTitle="Cycling" hobbyItemImage="/images/cycling.png" />
+        <HobbyItem hobbyItemTitle="Cooking" hobbyItemImage="/images/cooking.png" />
+        <HobbyItem hobbyItemTitle="Woodworking" hobbyItemImage="/images/woodworking.png" />
       </SectionInfoInnerGrid>
     </SectionInfo>
     <Footer />
