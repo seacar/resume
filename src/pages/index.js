@@ -121,9 +121,9 @@ const IndexPage = () => (
     <Section sectionTitle="Project Examples" />
     <SectionInfo>
       <SectionInfoInnerGrid>
-        <ProjectItem projectItemTitle="3BL Media" projectItemLink="https://3blmedia.com" projectItemTech="Drupal 7" projectItemImage="/images/3bl.png" />
-        <ProjectItem projectItemTitle="Triple Pundit" projectItemLink="https://triplepundit.com" projectItemTech="Drupal 8/ReactJS" projectItemImage="/images/3p.png" />
-        <ProjectItem projectItemTitle="Ethical Performance" projectItemLink="https://ethicalperformance.com" projectItemTech="Drupal 8/EmberJS" projectItemImage="/images/ep.png" />
+        <ProjectItem projectItemTitle="3BL Media" projectItemLink="https://www.3blmedia.com" projectItemTech="Drupal 7" projectItemImage="/images/3bl.png" />
+        <ProjectItem projectItemTitle="Triple Pundit" projectItemLink="https://www.triplepundit.com" projectItemTech="Drupal 8/ReactJS" projectItemImage="/images/3p.png" />
+        <ProjectItem projectItemTitle="Ethical Performance" projectItemLink="https://www.ethicalperformance.com" projectItemTech="Drupal 8/EmberJS" projectItemImage="/images/ep.png" />
         <ProjectItem projectItemTitle="Major Decision" projectItemLink="https://majordecision.com" projectItemTech="Drupal 8" projectItemImage="/images/md.png" />
         <ProjectItem projectItemTitle="Harvard Asia Center" projectItemLink="https://asiacenter.harvard.edu/" projectItemTech="Drupal 8" projectItemImage="/images/huac.png" />
         <ProjectItem projectItemTitle="Detroit School Guide" projectItemLink="https://www.detroitschoolsguide.com/" projectItemTech="Drupal 8/ReactJS" projectItemImage="/images/dsg.png" />
