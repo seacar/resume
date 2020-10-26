@@ -58,6 +58,16 @@ module.exports = {
         defer: true,
       },
     },
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: ["/"],
+        height: 5,
+        prependToBody: false,
+        color: `#B5D83C`,
+        footerHeight: 50,
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
