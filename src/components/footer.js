@@ -31,6 +31,7 @@ const Footer = (props) => (
         `}
       render={data => (
         <FooterContainer>
+            <div>"Code is like humor, if you have to explain it it's bad"</div>
             © {new Date().getFullYear()}, Built with
             {` `}
             <FooterLink href="https://www.gatsbyjs.com">Gatsby</FooterLink>

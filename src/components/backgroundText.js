@@ -66,7 +66,6 @@ const BackgroundText = () => (
         <HomeTextContainer>
           <HomeText>Sean Patrick Carroll</HomeText>
           <HomeSubText>Developer | Engineer | Entrepreneur</HomeSubText>
-          <HomeSubText>"Code is like humor, if you have to explain it it's bad"</HomeSubText>
         <ArrowContainer><FontAwesomeIcon  icon={faArrowDown}/></ArrowContainer>
         </HomeTextContainer>
         <RebeccaPurple href="https://en.wikipedia.org/wiki/Eric_A._Meyer">rebecca purple</RebeccaPurple>
